@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates all page sections including header, hero, about, services, projects (new), government, quality, careers, contact, and footer with proper routing.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with logo, desktop menu, and mobile hamburger menu with smooth scroll navigation to page sections.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image overlay, updated headline emphasizing \"Building India's Infrastructure with Engineering Excellence\" and tagline highlighting trusted partnership and quality delivery.",
+  "frontend/src/components/About.tsx": "Enhanced About section with quantifiable metrics (10+ years, 150+ projects, 75+ team members, 98% satisfaction), professional credentials grid, and detailed certifications/industry affiliations including ISO standards and professional memberships.",
+  "frontend/src/components/Services.tsx": "Expanded Services section with detailed technical descriptions for each service including specific methodologies, equipment capabilities, and technical specifications demonstrating engineering depth using industry-standard terminology.",
+  "frontend/src/components/Government.tsx": "Enhanced Government section with specific project type cards (PWD, Water Resource, Urban Development, Institutional) and detailed examples of completed government projects including client names, project scopes, and measurable outcomes.",
+  "frontend/src/components/Quality.tsx": "Enhanced Quality section with industry certifications display (ISO 9001:2015, Safety Accreditation) using generated certification images, detailed quality assurance practices list, and comprehensive execution framework descriptions.",
+  "frontend/src/components/Careers.tsx": "Careers section wrapper that displays introductory text and renders the career application form component.",
+  "frontend/src/components/CareerForm.tsx": "Career application form with validation, file upload for resume using ExternalBlob, and backend submission via React Query mutation.",
+  "frontend/src/components/Contact.tsx": "Contact section displaying company address, phone, email, and registration details (GSTIN, PAN, CIN) in card layouts.",
+  "frontend/src/components/Footer.tsx": "Footer component with company name, tagline, copyright notice, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend operations, specifically the submitApplication mutation for career form submissions with proper type casting for ExternalBlob.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for blue-900 primary and orange-500 accent colors matching the corporate brand.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color tokens, border radius, and Inter font family for professional typography.",
+  "frontend/src/lib/utils.ts": "Utility function for merging Tailwind CSS classes using clsx and tailwind-merge.",
+  "frontend/src/components/Projects.tsx": "New Projects Portfolio section displaying three completed infrastructure projects in a responsive grid layout with project images, categories, locations, contract values, completion dates, and detailed descriptions."
+}

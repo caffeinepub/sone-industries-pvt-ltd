@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Corporate website for Sone Industries Pvt Ltd, an infrastructure development company in Bihar, India. Single-page design with navigation, hero section, about, services, government capabilities, quality/compliance info, careers form, contact details, and footer.",
+  "architectural_notes": [
+    "Next.js React component with Tailwind CSS styling",
+    "Single-page application with anchor-based navigation",
+    "Responsive design with mobile-first approach (hidden md:block navigation)",
+    "Blue (#1e3a8a) and orange (#f97316) brand color scheme",
+    "Alternating white and gray (#f3f4f6) section backgrounds for visual rhythm"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional infrastructure project photo showing construction site or completed building (project-1.dim_800x600.png)\n- Civil engineering project image showing road or bridge construction (project-2.dim_800x600.png)\n- Water infrastructure project photo showing pipeline or treatment facility (project-3.dim_800x600.png)\n- ISO certification badge logo with clean design (iso-cert.dim_200x200.png)\n- Quality standards emblem or safety certification badge (safety-badge.dim_200x200.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-the-complete-homepage-layout-with-sticky-navigation-bar-containing-links-to-about-services-government-quality-careers-and-contact-sections",
+      "title": "Implement the complete homepage layout with sticky navigation bar containing links to About, Services, Government, Quality, Careers, and Contact sections",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-hero-section-with-headline-engineering-the-foundations-of-tomorrow-s-infrastructure-tagline-about-strategic-infrastructure-development-partner-and-two-action-buttons-download-corporate-profile-orange-and-tender-enquiry-white-border",
+      "title": "Create hero section with headline 'Engineering the Foundations of Tomorrow's Infrastructure', tagline about Strategic Infrastructure Development Partner, and two action buttons: 'Download Corporate Profile' (orange) and 'Tender Enquiry' (white border)",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-about-us-section-describing-sone-industries-pvt-ltd-as-a-professionally-structured-infrastructure-development-company-based-in-bihar-india-specializing-in-civil-mechanical-and-electrical-engineering-projects",
+      "title": "Implement About Us section describing Sone Industries Pvt Ltd as a professionally structured infrastructure development company based in Bihar, India, specializing in civil, mechanical, and electrical engineering projects",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-core-services-section-with-four-service-cards-civil-infrastructure-buildings-roads-bridges-dams-canals-public-infrastructure-water-sewerage-projects-water-supply-systems-drainage-networks-pipeline-infrastructure-mechanical-electrical-mep-electrical-installations-power-distribution-mechanical-systems-and-epc-turnkey-solutions-engineering-procurement-construction-with-single-point-accountability",
+      "title": "Create Core Services section with four service cards: Civil Infrastructure (Buildings, Roads, Bridges, Dams, Canals, Public Infrastructure), Water & Sewerage Projects (Water Supply Systems, Drainage Networks, Pipeline Infrastructure), Mechanical & Electrical MEP (Electrical Installations, Power Distribution, Mechanical Systems), and EPC Turnkey Solutions (Engineering, Procurement & Construction with single-point accountability)",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-government-public-sector-capability-section-with-description-of-tender-participation-and-list-of-project-types-public-works-department-projects-urban-development-authority-projects-water-resource-irrigation-projects-institutional-construction-contracts",
+      "title": "Implement Government & Public Sector Capability section with description of tender participation and list of project types: Public Works Department Projects, Urban Development Authority Projects, Water Resource & Irrigation Projects, Institutional Construction Contracts",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-quality-safety-compliance-section-describing-execution-framework-including-material-verification-stage-wise-inspection-regulatory-documentation-risk-management-safety-compliance-monitoring-transparency-structured-governance-and-environmental-responsibility",
+      "title": "Create Quality, Safety & Compliance section describing execution framework including material verification, stage-wise inspection, regulatory documentation, risk management, safety compliance monitoring, transparency, structured governance, and environmental responsibility",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-careers-section-with-application-form-containing-fields-full-name-text-email-phone-number-file-upload-for-resume-message-textarea-and-submit-application-button",
+      "title": "Implement Careers section with application form containing fields: Full Name (text), Email, Phone Number, file upload for resume, Message (textarea), and Submit Application button",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-contact-section-displaying-company-address-barkagawan-mohan-darwan-kaimur-bhabua-kudra-bihar-821108-phone-91-7366909935-email-sipl-kaimur-outlook-com-gstin-10abrcs2205e1zt-pan-abrcs2205e-and-cin-u43299br2025ptc078700",
+      "title": "Create Contact section displaying company address (Barkagawan, Mohan Darwan, Kaimur (Bhabua), Kudra, Bihar – 821108), phone (+91 7366909935), email (sipl.kaimur@outlook.com), GSTIN (10ABRCS2205E1ZT), PAN (ABRCS2205E), and CIN (U43299BR2025PTC078700)",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-footer-with-company-name-tagline-strategic-infrastructure-epc-partner-and-copyright-notice-2026-sone-industries-pvt-ltd-all-rights-reserved",
+      "title": "Implement footer with company name, tagline 'Strategic Infrastructure & EPC Partner', and copyright notice '© 2026 Sone Industries Pvt Ltd. All Rights Reserved.'",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-consistent-color-scheme-using-blue-900-for-primary-brand-color-orange-500-for-call-to-action-buttons-gray-100-for-alternating-section-backgrounds-and-proper-text-contrast-throughout",
+      "title": "Apply consistent color scheme using blue-900 for primary brand color, orange-500 for call-to-action buttons, gray-100 for alternating section backgrounds, and proper text contrast throughout",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-responsive-design-with-mobile-optimized-layouts-hide-navigation-links-on-mobile-adjust-text-sizes-4xl-to-6xl-convert-grids-to-single-column-on-small-screens-and-ensure-proper-spacing-and-padding",
+      "title": "Implement responsive design with mobile-optimized layouts: hide navigation links on mobile, adjust text sizes (4xl to 6xl), convert grids to single column on small screens, and ensure proper spacing and padding",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-research-and-analyze-aks-engineering-s-website-content-structure-focusing-on-how-they-present-their-infrastructure-development-services-project-portfolios-and-company-capabilities-in-the-civil-engineering-sector",
+      "title": "Research and analyze AKS Engineering's website content structure, focusing on how they present their infrastructure development services, project portfolios, and company capabilities in the civil engineering sector",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-about-us-section-with-more-detailed-company-credentials-including-years-of-experience-completed-project-count-team-size-certifications-and-industry-affiliations-similar-to-how-established-engineering-firms-present-their-credentials",
+      "title": "Enhance the About Us section with more detailed company credentials including years of experience, completed project count, team size, certifications, and industry affiliations similar to how established engineering firms present their credentials",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-expand-the-services-section-with-more-detailed-descriptions-of-each-service-category-including-specific-methodologies-equipment-capabilities-and-technical-specifications-that-demonstrate-engineering-expertise",
+      "title": "Expand the Services section with more detailed descriptions of each service category, including specific methodologies, equipment capabilities, and technical specifications that demonstrate engineering expertise",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-projects-portfolio-section-showcasing-completed-infrastructure-projects-with-project-names-locations-contract-values-completion-dates-and-brief-descriptions-organized-in-a-grid-or-carousel-layout",
+      "title": "Add a Projects Portfolio section showcasing completed infrastructure projects with project names, locations, contract values, completion dates, and brief descriptions, organized in a grid or carousel layout",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-enhance-the-government-public-sector-section-with-specific-examples-of-successfully-completed-government-projects-including-client-names-project-scopes-and-outcomes",
+      "title": "Enhance the Government & Public Sector section with specific examples of successfully completed government projects, including client names, project scopes, and outcomes",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-industry-certifications-and-quality-standards-section-displaying-iso-certifications-safety-accreditations-and-compliance-badges-with-logos-and-certification-numbers",
+      "title": "Add industry certifications and quality standards section displaying ISO certifications, safety accreditations, and compliance badges with logos and certification numbers",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-improve-the-hero-section-headline-and-tagline-to-be-more-impactful-and-industry-specific-emphasizing-infrastructure-excellence-and-engineering-innovation-using-language-patterns-common-in-leading-engineering-firms",
+      "title": "Improve the hero section headline and tagline to be more impactful and industry-specific, emphasizing infrastructure excellence and engineering innovation using language patterns common in leading engineering firms",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-12",
+      "summary": "Create backend endpoint to handle career application form submissions, storing applicant name, email, phone number, and message",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Enhance website content and structure using AKS Engineering as reference for improved industry-standard presentation",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Sone Industries Pvt Ltd",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

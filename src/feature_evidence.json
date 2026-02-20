@@ -1,0 +1,140 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-research-and-analyze-aks-engineering-s-website-content-structure-focusing-on-how-they-present-their-infrastructure-development-services-project-portfolios-and-company-capabilities-in-the-civil-engineering-sector",
+      "featureTitle": "Research and analyze AKS Engineering's website content structure, focusing on how they present their infrastructure development services, project portfolios, and company capabilities in the civil engineering sector",
+      "files": [
+        "frontend/src/components/About.tsx",
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-enhance-the-about-us-section-with-more-detailed-company-credentials-including-years-of-experience-completed-project-count-team-size-certifications-and-industry-affiliations-similar-to-how-established-engineering-firms-present-their-credentials",
+      "featureTitle": "Enhance the About Us section with more detailed company credentials including years of experience, completed project count, team size, certifications, and industry affiliations similar to how established engineering firms present their credentials",
+      "files": [
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-expand-the-services-section-with-more-detailed-descriptions-of-each-service-category-including-specific-methodologies-equipment-capabilities-and-technical-specifications-that-demonstrate-engineering-expertise",
+      "featureTitle": "Expand the Services section with more detailed descriptions of each service category, including specific methodologies, equipment capabilities, and technical specifications that demonstrate engineering expertise",
+      "files": [
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-projects-portfolio-section-showcasing-completed-infrastructure-projects-with-project-names-locations-contract-values-completion-dates-and-brief-descriptions-organized-in-a-grid-or-carousel-layout",
+      "featureTitle": "Add a Projects Portfolio section showcasing completed infrastructure projects with project names, locations, contract values, completion dates, and brief descriptions, organized in a grid or carousel layout",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Projects.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-enhance-the-government-public-sector-section-with-specific-examples-of-successfully-completed-government-projects-including-client-names-project-scopes-and-outcomes",
+      "featureTitle": "Enhance the Government & Public Sector section with specific examples of successfully completed government projects, including client names, project scopes, and outcomes",
+      "files": [
+        "frontend/src/components/Government.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-industry-certifications-and-quality-standards-section-displaying-iso-certifications-safety-accreditations-and-compliance-badges-with-logos-and-certification-numbers",
+      "featureTitle": "Add industry certifications and quality standards section displaying ISO certifications, safety accreditations, and compliance badges with logos and certification numbers",
+      "files": [
+        "frontend/src/components/Quality.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-improve-the-hero-section-headline-and-tagline-to-be-more-impactful-and-industry-specific-emphasizing-infrastructure-excellence-and-engineering-innovation-using-language-patterns-common-in-leading-engineering-firms",
+      "featureTitle": "Improve the hero section headline and tagline to be more impactful and industry-specific, emphasizing infrastructure excellence and engineering innovation using language patterns common in leading engineering firms",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
