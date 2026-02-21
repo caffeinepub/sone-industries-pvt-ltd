@@ -1,14 +1,12 @@
 # Specification
 
 ## Summary
-**Goal:** Enhance the Sone Industries website with industry-standard content and structure inspired by AKS Engineering, adding professional credentials, detailed service descriptions, project portfolio, and certification displays.
+**Goal:** Update company credentials in the About section and remove the Projects Portfolio section.
 
 **Planned changes:**
-- Expand About Us section with quantifiable metrics (years of experience, project count, team size, certifications, industry affiliations)
-- Enhance Services section with detailed descriptions including methodologies, equipment capabilities, and technical specifications
-- Add new Projects Portfolio section showcasing completed infrastructure projects with names, locations, contract values, and completion dates in a grid layout
-- Enhance Government & Public Sector section with specific project examples, client names, and outcomes
-- Add certifications and quality standards section displaying ISO certifications, safety accreditations, and compliance badges
-- Improve hero section headline and tagline with more impactful, industry-specific language
+- Change experience from "10+ Years" to "5+ Years"
+- Change completed projects from "150+ Projects" to "10+ Projects"
+- Change team size from "75+ Team" to "20+ Team"
+- Remove the entire Projects Portfolio section from the website
 
-**User-visible outcome:** Users see a more professional and comprehensive engineering firm website with detailed company credentials, expanded service information, a portfolio of completed projects, government project examples, certification badges, and an enhanced hero section that better reflects industry standards.
+**User-visible outcome:** The About section displays updated, more modest company credentials (5 years experience, 10+ projects, 20+ team members), and the Projects Portfolio section is no longer visible on the website.

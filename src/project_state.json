@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Corporate website for Sone Industries Pvt Ltd, an infrastructure development company in Bihar, India. Single-page design with navigation, hero section, about, services, government capabilities, quality/compliance info, careers form, contact details, and footer.",
   "architectural_notes": [
     "Next.js React component with Tailwind CSS styling",
@@ -11,7 +11,6 @@
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Professional infrastructure project photo showing construction site or completed building (project-1.dim_800x600.png)\n- Civil engineering project image showing road or bridge construction (project-2.dim_800x600.png)\n- Water infrastructure project photo showing pipeline or treatment facility (project-3.dim_800x600.png)\n- ISO certification badge logo with clean design (iso-cert.dim_200x200.png)\n- Quality standards emblem or safety certification badge (safety-badge.dim_200x200.png)",
   "existing_features": [
     {
       "id": "feature-implement-the-complete-homepage-layout-with-sticky-navigation-bar-containing-links-to-about-services-government-quality-careers-and-contact-sections",
@@ -154,6 +153,38 @@
       "title": "Improve the hero section headline and tagline to be more impactful and industry-specific, emphasizing infrastructure excellence and engineering innovation using language patterns common in leading engineering firms",
       "reqIds": [
         "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-section-credentials-to-display-5-years-of-experience-instead-of-10-years",
+      "title": "Update the About section credentials to display '5+ Years' of experience instead of '10+ Years'",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-section-credentials-to-display-10-projects-completed-instead-of-150-projects",
+      "title": "Update the About section credentials to display '10+ Projects' completed instead of '150+ Projects'",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-about-section-credentials-to-display-20-team-size-instead-of-75-team",
+      "title": "Update the About section credentials to display '20+ Team' size instead of '75+ Team'",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-entire-projects-portfolio-section-from-the-website",
+      "title": "Remove the entire Projects Portfolio section from the website",
+      "reqIds": [
+        "REQ-23"
       ],
       "version": 1
     }

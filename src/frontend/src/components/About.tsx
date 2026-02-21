@@ -6,19 +6,19 @@ export function About() {
     {
       icon: Building2,
       label: 'Years of Experience',
-      value: '10+',
+      value: '5+',
       description: 'Delivering infrastructure excellence',
     },
     {
       icon: TrendingUp,
       label: 'Projects Completed',
-      value: '150+',
+      value: '10+',
       description: 'Across government & private sectors',
     },
     {
       icon: Users,
       label: 'Professional Team',
-      value: '75+',
+      value: '20+',
       description: 'Engineers, technicians & specialists',
     },
     {

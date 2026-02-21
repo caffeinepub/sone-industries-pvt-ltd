@@ -2,28 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-research-and-analyze-aks-engineering-s-website-content-structure-focusing-on-how-they-present-their-infrastructure-development-services-project-portfolios-and-company-capabilities-in-the-civil-engineering-sector",
-      "featureTitle": "Research and analyze AKS Engineering's website content structure, focusing on how they present their infrastructure development services, project portfolios, and company capabilities in the civil engineering sector",
-      "files": [
-        "frontend/src/components/About.tsx",
-        "frontend/src/components/Services.tsx"
-      ],
-      "components": [
-        "blob-storage@4.0.0",
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-13"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-enhance-the-about-us-section-with-more-detailed-company-credentials-including-years-of-experience-completed-project-count-team-size-certifications-and-industry-affiliations-similar-to-how-established-engineering-firms-present-their-credentials",
-      "featureTitle": "Enhance the About Us section with more detailed company credentials including years of experience, completed project count, team size, certifications, and industry affiliations similar to how established engineering firms present their credentials",
+      "featureId": "feature-update-the-about-section-credentials-to-display-5-years-of-experience-instead-of-10-years",
+      "featureTitle": "Update the About section credentials to display '5+ Years' of experience instead of '10+ Years'",
       "files": [
         "frontend/src/components/About.tsx"
       ],
@@ -36,15 +16,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-14"
+        "REQ-20"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-expand-the-services-section-with-more-detailed-descriptions-of-each-service-category-including-specific-methodologies-equipment-capabilities-and-technical-specifications-that-demonstrate-engineering-expertise",
-      "featureTitle": "Expand the Services section with more detailed descriptions of each service category, including specific methodologies, equipment capabilities, and technical specifications that demonstrate engineering expertise",
+      "featureId": "feature-update-the-about-section-credentials-to-display-10-projects-completed-instead-of-150-projects",
+      "featureTitle": "Update the About section credentials to display '10+ Projects' completed instead of '150+ Projects'",
       "files": [
-        "frontend/src/components/Services.tsx"
+        "frontend/src/components/About.tsx"
       ],
       "components": [
         "blob-storage@4.0.0",
@@ -55,16 +35,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-15"
+        "REQ-21"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-add-a-projects-portfolio-section-showcasing-completed-infrastructure-projects-with-project-names-locations-contract-values-completion-dates-and-brief-descriptions-organized-in-a-grid-or-carousel-layout",
-      "featureTitle": "Add a Projects Portfolio section showcasing completed infrastructure projects with project names, locations, contract values, completion dates, and brief descriptions, organized in a grid or carousel layout",
+      "featureId": "feature-update-the-about-section-credentials-to-display-20-team-size-instead-of-75-team",
+      "featureTitle": "Update the About section credentials to display '20+ Team' size instead of '75+ Team'",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/Projects.tsx"
+        "frontend/src/components/About.tsx"
       ],
       "components": [
         "blob-storage@4.0.0",
@@ -75,15 +54,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-16"
+        "REQ-22"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-enhance-the-government-public-sector-section-with-specific-examples-of-successfully-completed-government-projects-including-client-names-project-scopes-and-outcomes",
-      "featureTitle": "Enhance the Government & Public Sector section with specific examples of successfully completed government projects, including client names, project scopes, and outcomes",
+      "featureId": "feature-remove-the-entire-projects-portfolio-section-from-the-website",
+      "featureTitle": "Remove the entire Projects Portfolio section from the website",
       "files": [
-        "frontend/src/components/Government.tsx"
+        "frontend/src/App.tsx"
       ],
       "components": [
         "blob-storage@4.0.0",
@@ -94,45 +73,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-17"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-add-industry-certifications-and-quality-standards-section-displaying-iso-certifications-safety-accreditations-and-compliance-badges-with-logos-and-certification-numbers",
-      "featureTitle": "Add industry certifications and quality standards section displaying ISO certifications, safety accreditations, and compliance badges with logos and certification numbers",
-      "files": [
-        "frontend/src/components/Quality.tsx"
-      ],
-      "components": [
-        "blob-storage@4.0.0",
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-18"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-improve-the-hero-section-headline-and-tagline-to-be-more-impactful-and-industry-specific-emphasizing-infrastructure-excellence-and-engineering-innovation-using-language-patterns-common-in-leading-engineering-firms",
-      "featureTitle": "Improve the hero section headline and tagline to be more impactful and industry-specific, emphasizing infrastructure excellence and engineering innovation using language patterns common in leading engineering firms",
-      "files": [
-        "frontend/src/components/Hero.tsx"
-      ],
-      "components": [
-        "blob-storage@4.0.0",
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-19"
+        "REQ-23"
       ],
       "confidence": "high"
     }

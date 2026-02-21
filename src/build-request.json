@@ -1,156 +1,91 @@
 {
   "kind": "build_request",
-  "title": "Enhance website content with industry-standard references from AKS Engineering",
+  "title": "Update company credentials to 5 years experience, 10+ projects completed, 20+ team size, and remove featured projects section",
   "projectName": "Sone Industries",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-13",
-      "text": "Research and analyze AKS Engineering's website content structure, focusing on how they present their infrastructure development services, project portfolios, and company capabilities in the civil engineering sector",
+      "id": "REQ-20",
+      "text": "Update the About section credentials to display '5+ Years' of experience instead of '10+ Years'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-improve"
+          "msg-5"
         ],
         "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
+          "5 year of experience"
         ]
       },
       "acceptanceCriteria": [
-        "Identify key content patterns from AKS Engineering that are relevant to infrastructure development companies",
-        "Document specific improvements that align with industry standards in civil engineering presentation"
+        "The About section displays '5+ Years' in the experience credential card",
+        "The change is visible on the live website"
       ]
     },
     {
-      "id": "REQ-14",
-      "text": "Enhance the About Us section with more detailed company credentials including years of experience, completed project count, team size, certifications, and industry affiliations similar to how established engineering firms present their credentials",
+      "id": "REQ-21",
+      "text": "Update the About section credentials to display '10+ Projects' completed instead of '150+ Projects'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-improve"
+          "msg-5"
         ],
         "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
+          "10+ projects"
         ]
       },
       "acceptanceCriteria": [
-        "About section includes quantifiable metrics (years in operation, projects completed, etc.)",
-        "Professional certifications and industry memberships are displayed",
-        "Content follows industry-standard formatting for engineering firms"
+        "The About section displays '10+ Projects' in the completed projects credential card",
+        "The description text is updated accordingly"
       ]
     },
     {
-      "id": "REQ-15",
-      "text": "Expand the Services section with more detailed descriptions of each service category, including specific methodologies, equipment capabilities, and technical specifications that demonstrate engineering expertise",
+      "id": "REQ-22",
+      "text": "Update the About section credentials to display '20+ Team' size instead of '75+ Team'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-improve"
+          "msg-5"
         ],
         "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
+          "10+ proffessional team"
         ]
       },
       "acceptanceCriteria": [
-        "Each service card includes technical details and methodologies",
-        "Service descriptions demonstrate depth of engineering capabilities",
-        "Content reflects industry-standard terminology and practices"
+        "The About section displays '20+ Team' in the team size credential card",
+        "The team description reflects the updated size"
       ]
     },
     {
-      "id": "REQ-16",
-      "text": "Add a Projects Portfolio section showcasing completed infrastructure projects with project names, locations, contract values, completion dates, and brief descriptions, organized in a grid or carousel layout",
+      "id": "REQ-23",
+      "text": "Remove the entire Projects Portfolio section from the website",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-improve"
+          "msg-5"
         ],
         "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
+          "remove the remove featured projects"
         ]
       },
       "acceptanceCriteria": [
-        "New Projects section is added between Services and Government sections",
-        "Projects are displayed in a responsive grid layout",
-        "Each project card shows key details: name, location, value, and completion date",
-        "Section maintains consistent styling with other page sections"
-      ]
-    },
-    {
-      "id": "REQ-17",
-      "text": "Enhance the Government & Public Sector section with specific examples of successfully completed government projects, including client names, project scopes, and outcomes",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-user-improve"
-        ],
-        "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Government section includes concrete project examples",
-        "Client names and project outcomes are listed",
-        "Content demonstrates proven track record with government entities"
-      ]
-    },
-    {
-      "id": "REQ-18",
-      "text": "Add industry certifications and quality standards section displaying ISO certifications, safety accreditations, and compliance badges with logos and certification numbers",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-user-improve"
-        ],
-        "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Certification badges are displayed in the Quality section",
-        "Each certification includes logo and registration number",
-        "Layout is responsive and visually organized"
-      ]
-    },
-    {
-      "id": "REQ-19",
-      "text": "Improve the hero section headline and tagline to be more impactful and industry-specific, emphasizing infrastructure excellence and engineering innovation using language patterns common in leading engineering firms",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-user-improve"
-        ],
-        "quotes": [
-          "imprrove by some tentent taken as reference from AKS engineering work in the same field"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Hero headline is more compelling and industry-aligned",
-        "Tagline emphasizes unique value proposition",
-        "Language reflects professional engineering firm standards"
+        "The Projects component is no longer rendered in App.tsx",
+        "The Projects section is not visible anywhere on the website",
+        "Navigation flows smoothly from Services to Government sections without the Projects section"
       ]
     }
   ],
   "constraints": [
-    "Do not change the backend schema or main actor structure",
-    "Maintain existing color scheme (blue-900 primary, orange-500 CTAs)",
-    "Preserve all existing functionality including career form submission",
-    "Keep all immutable frontend paths unchanged (hooks, main.tsx, ui components)"
+    "Do not modify the backend schema or job application functionality",
+    "Preserve all other sections and their content",
+    "Maintain the existing color scheme and responsive design"
   ],
   "nonGoals": [
-    "Implementing actual project database or CMS",
-    "Adding authentication beyond existing Internet Identity integration",
-    "Creating admin panel for content management",
-    "Integrating with external APIs or third-party services"
+    "Adding new sections or features",
+    "Changing the layout or styling of other components",
+    "Modifying navigation links"
   ],
   "imageRequirements": {
-    "required": [
-      "Professional infrastructure project photo showing construction site or completed building (project-1.dim_800x600.png)",
-      "Civil engineering project image showing road or bridge construction (project-2.dim_800x600.png)",
-      "Water infrastructure project photo showing pipeline or treatment facility (project-3.dim_800x600.png)",
-      "ISO certification badge logo with clean design (iso-cert.dim_200x200.png)",
-      "Quality standards emblem or safety certification badge (safety-badge.dim_200x200.png)"
-    ],
+    "required": [],
     "edits": []
   }
 }
